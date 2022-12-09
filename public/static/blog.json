@@ -1,35 +1,100 @@
 [
   {
-    "title": "Jim Morisson Says when the musics over turn off the light",
-    "img": "img/news/1.jpg",
-    "category": "Web Development",
-    "date": { "date": "23", "month": "Dec" },
+    "title": "Current Ph.D Students info Section",
+    "img": "img/news/1.png",
+    "category": "All Achivement in Ph.d Studentlife. Tap up the Picture for information list.",
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "Ao Li (co-advised with Rohan Padhye)",
+      "Aqsa Kashaf (co-advised with Yuvraj Agarwal)",
+      "Brian Singer (co-advised with Lujo Bauer)",
+      "Zinan Lin (co-advised with Giulia Fanti)",
+      "Hun Namkung (co-advised with Peter Steenkiste)",
+      "Rahul Sharma (co-advised with Anthony Rowe)",
+      "Milind Srivastava",
+      "Yucheng Yin"
     ]
   },
   {
-    "title": "How to be appreciated for your hard work as a developer",
-    "img": "img/news/2.jpg",
-    "category": "Branding",
-    "date": { "date": "23", "month": "Dec" },
+    "title": "Research awards and honors Section",
+    "img": "img/news/2.png",
+    "category": "All research awards and honors information. Tap up the Picture for information list.",
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "IRTF Applied Networking Research Prize 2021",
+      "IMC 2020 Best paper award finalist",
+      "Plenary talk at ACM STOC 2018 TheoryFest",
+      "NSA Best Scientific Cybersecurity Paper Competition 2016",
+      "Best paper award at ACM SIGCOMM 2012",
+      "Best paper award at ACM CoNext 2013",
+      "Best paper award (systems track) at ACM Multimedia 2009",
+      "Best paper award finalist at ACM IMC 2020, ACM SIGCOMM 2013, ACM IMC 2014, ACM CoNext 2014",
+      "2nd place in CSAW Applied Security Research Competition 2015",
+      "CSAW Applied Security Research Competition Finalist 2016",
+      "Papers fast-tracked to IEEE Transactions of Networking from ACM CoNext 2012, ACM CoNext 2013",
+      "Invited paper to Communications of ACM Research Highlights",
+      "Qualcomm Innovation Finalist."
     ]
   },
   {
-    "title": "How designers and developers can collaborate better",
-    "img": "img/news/3.jpg",
-    "category": "Social Media",
-    "date": { "date": "23", "month": "Dec" },
+    "title": "Student awards and honors Section",
+    "img": "img/news/3.png",
+    "category": "Selected Students awards and honors information. Tap up the Picture for information list.",
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "Microsoft Research Fellowship (Daehyeok Kim)",
+      "Symantec Research Fellowship (Tianlong Yu)",
+      "INI Outstanding Research Award (Mingran Yang)",
+      "Cylab Presidential Fellowship (Zinan Lin)",
+      "Siemens Fellowship (Zinan Lin)",
+      "EECS Rising Stars (Soo-jin Moon)",
+      "INI Outstanding Research Award (Carolina Zarate)",
+      "CMU SCS Dissertation Award (Junchen Jiang)",
+      "Bertucci Fellowship (Seyed Fayaz)",
+      "VMWare Fellowship (Seyed Fayaz)",
+      "Samsung Fellowship Finalist (Tianlong Yu)",
+      "Frank J. Marshall Graduate Fellowship (Antonis Manousis)",
+      "Symantec Fellowship (Tianlong Yu)."
+    ]
+  },
+  {
+    "title": "Alumni",
+    "img": "img/news/4.png",
+    "category": "Alumni batch awards. Tap up the Picture for information list.",
+    "details": [
+      "Maria Apostolaki Postdoc, now Princeton",
+      "Dimitrios-Georgios Akestoridis coadvised with Patrick Tague, Google",
+      "Antonis Manousis Meta",
+      "Daehyeok Kim (co-advised with Srini Seshan), Microsoft",
+      "Sekar Kulandaivel Locomation",
+      "Guyue (Grace) Liu Faculty at NYU-Shanghai",
+      "Matthew Mccormack USAF TPS",
+      "Alan (Zaoxing) Liu with Minlan Yu now at Boston University",
+      "Soo Jin Moon Google",
+      "Tianlong Yu (co-advised with Srini Seshan) at Palo Alto Networks",
+      "Athula Balachandran, (co-advised with Srini Seshan), Google",
+      "Zafar Ayyub Qazi, (co-advised with Samir Das), Faculty at LUMS",
+      "Seyed Kaveh Fayazbakhsh , ECE, Microsoft",
+      "Junchen Jiang, CSD (co-advised with Hui Zhang), Faculty at University of Chicago",
+      "Yifei Yuan with Limin Jia,",
+      "Jeffrey Helt (CS MS), PhD student at Princeton",
+      "Luis Chiang (MS CS Stonybrook)",
+      "Yoshiaki Tobioka (MS INI CMU)",
+      "Rahul Muthooo (INI CMU)",
+      "Tushar Sharma (ECE CMU)",
+      "Roy Ragsdale (MS ECE)",
+      "Carolina Zarate (INI MS, Outstanding TA Award Winner), DoD",
+      "Sanjay Chandrasekaran (CS MS), Phd Student at UCSB",
+      "Mingran Yang (INI MS, Outstanding Research Award Winner), Phd Student at MIT",
+      "Joe Severini MS, CS."
+    ]
+  },
+  {
+    "title": "Total Others",
+    "img": "img/news/5.png",
+    "category": "Others awards and honours info. Tap up the Picture for information list.",
+    "details": [
+      "I have worked/also work closely with: ",
+      "Victor Heorhiadi (UNC, advised by Mike Reiter)",
+      "Min Suk Kang (CMU, Advised by Virgil Gligor)",
+      "Xiaoqi Yin (CMU, Advised by Bruno Sinopoli)."
     ]
   }
 ]
