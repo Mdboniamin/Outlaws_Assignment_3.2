@@ -1,14 +1,10 @@
-import parse from "html-react-parser";
 import { useEffect, useState } from "react";
-import { fatchData } from "../utilits";
 import ServicePopup from "./popup/ServicePopup";
 
 const Service = ({ dark }) => {
-  const [data, setData] = useState([]);
   const [popupdata, setPopupdata] = useState({});
   const [popup, setPopup] = useState(false);
   useEffect(async () => {
-    setData(await fatchData("/static/service.json"));
     setTimeout(() => {
       let VanillaTilt = require("vanilla-tilt");
       VanillaTilt.init(document.querySelectorAll(".tilt-effect"), {
@@ -20,9 +16,73 @@ const Service = ({ dark }) => {
     }, 1000);
   }, []);
 
-  const onClick = (index) => {
-    setPopup(true);
-    setPopupdata(data && data[index]);
+  const data = {
+    title: "Creative Design",
+    price: "99",
+    im: "img/service/1.jpg",
+    shortDec:
+      "Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development",
+    service: {
+      Organization: [
+        { url: "", text: "NSDI 2022 (TPC co-chair)" },
+        { url: "", text: "IMC 2020 (General co-chair)" },
+        { url: "", text: "HotNets 2018 (co-chair)" },
+        {
+          url: "https://sites.google.com/view/netsearlycareer2017",
+          text: "NSF-NeTS Early Career Workshop 2017",
+        },
+        {
+          url: "http://dimacs.rutgers.edu/Workshops/SDNAlgorithms",
+          text: "Workshop on Algorithms for Software-Defined Networking",
+        },
+        {
+          url: "http://conferences.sigcomm.org/co-next/2016/#!/home",
+          text: "CoNext 2016 TPC co-chair",
+        },
+        { url: "", text: "CoNext 2015 Workshops co-chair" },
+        { url: "", text: "SIGCOMM 2015 Travel Grants" },
+        {
+          url: "http://conferences.sigcomm.org/co-next/2013",
+          text: "CoNext 2013 Travel Grants",
+        },
+        {
+          url: "http://conferences.sigcomm.org/co-next/2013/workshops/HotMiddlebox/index.html",
+          text: "HotMiddlebox 2013 Co-chair",
+        },
+        {
+          url: "http://conferences.sigcomm.org/co-next/2012/workshops/student",
+          text: "CoNEXT 2012 Student Workshop Co-chair",
+        },
+      ],
+      ProgramCommittees: [
+        {
+          year: "2021",
+          text: "IEEE Symposium on Security and Privacy, USENIX Security, OSDI",
+        },
+        { year: "2020", text: "IEEE Symposium on Security and Privacy, NSDI" },
+        { year: "2019", text: "IEEE Symposium on Security and Privacy, NSDI" },
+        {
+          year: "2018",
+          text: "NSDI, NDSS, Usenix Security, SIGCOMM Workshop on Self-Driving Networks, Hotnets",
+        },
+        { year: "2017", text: "IEEE Security and Privacy, SIGCOMM, NDSS" },
+        { year: "2016", text: "IEEE Security and Privacy, NSDI, SIGCOMM" },
+        {
+          year: "2015",
+          text: "IEEE Security and Privacy, SIGCOMM, CoNext, IMC, SOSR (HotSDN), COMSNETS",
+        },
+        {
+          year: "2014",
+          text: "NSDI , SIGCOMM , CoNext , NDSS , HotSDN , ONS Research Track , ANCS , SIGCOMM Posters/Demos",
+        },
+        {
+          year: "2013",
+          text: "SIGCOMM , CCS , CoNext, NSDI Demo/Poster, ANCS , IWQoS , Networking , Performance , ICPADS , Globecom NFV Demos",
+        },
+        { year: "2012", text: "CoNEXT, IMC, PAM, COMSNETS" },
+        { year: "2011", text: "IMC, SIGCOMM Demos/Posters, ICCCN" },
+      ],
+    },
   };
 
   return (
@@ -42,61 +102,44 @@ const Service = ({ dark }) => {
               desktop is responsive and adaptive design
             </p>
           </div>
-          <div className="service_list">
-            <ul>
-              {data &&
-                data.map(
-                  (data, i) =>
-                    data && (
-                      <li
-                        className={`wow ${
-                          (i * 1) % 2 === 0 ? "fadeInLeft" : "fadeInRight"
-                        }`}
-                        data-wow-duration="1s"
-                        key={i}
-                        onClick={() => onClick(i)}
-                      >
-                        <div className="list_inner tilt-effect">
-                          <span className="icon">
-                            {parse(data.icon.svg)}
-                            {dark ? (
-                              <img
-                                className="back"
-                                src={data.icon.iconBgDark}
-                                alt="image"
-                              />
-                            ) : (
-                              <img
-                                className="back"
-                                src={data.icon.iconBg}
-                                alt="image"
-                              />
-                            )}
-                          </span>
-                          <div className="title">
-                            <h3>{data.title}</h3>
-                            <span className="price">
-                              Starts from <span>${data.price}</span>
-                            </span>
-                          </div>
-                          <div className="text">
-                            <p>{data.shortDec}</p>
-                          </div>
-                          <a className="dizme_tm_full_link" href="#" />
-                          <img
-                            className="popup_service_image"
-                            src="img/service/1.jpg"
-                            alt="image"
-                          />
-                        </div>
-                      </li>
-                    )
-                )}
-            </ul>
+
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              marginTop: "30px",
+            }}
+          >
+            <div className="service_section">
+              <h2 style={{ paddingBottom: "20px" }}>Organization:</h2>
+              <ul>
+                {data.service.Organization.map((work, i) => (
+                  <div key={i}>
+                    {work.url ? (
+                      <a href={work.url} style={{ textDecoration: "none" }}>
+                        * {work.text}
+                      </a>
+                    ) : (
+                      <p>* {work.text}</p>
+                    )}
+                  </div>
+                ))}
+              </ul>
+            </div>
+            <div className="service_section" style={{ marginRight: "-150px" }}>
+              <h2 style={{ paddingBottom: "20px" }}>Program Committees:</h2>
+              <ul>
+                {data.service.ProgramCommittees.map((work, i) => (
+                  <div key={i}>
+                    <p>
+                      <span style={{ color: "red" }}>{work.year}</span>:{" "}
+                      {work.text}
+                    </p>
+                  </div>
+                ))}
+              </ul>
+            </div>
           </div>
-        </div>
-        <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
-          <img src="img/brushes/service/5.png" alt="image" />
         </div>
         <div className="brush_2 wow zoomIn" data-wow-duration="1s">
           <img src="img/brushes/service/6.png" alt="image" />
