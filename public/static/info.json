@@ -10,10 +10,6 @@
     { "name": "twitter", "icon": "icon-twitter-1", "url": "#" },
     { "name": "linkedin", "icon": "icon-linkedin-1", "url": "#" },
     { "name": "behance", "icon": "icon-behance", "url": "#" }
-  ],
-  "contact": {
-    "address": "20, Somewhere in world",
-    "email": "hello@dizme.com",
-    "phn": "+123 456 7890"
-  }
+  ]
+ 
 }
