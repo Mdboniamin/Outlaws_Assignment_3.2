@@ -36,17 +36,15 @@ const About = ({ dark }) => {
             </div>
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
-                <span>{`I'm a Designer`}</span>
-                <h3>I Can Design Anything You Want</h3>
+                <span>{`I'm an Electrical and Computer Engineering`}</span>
+                <h3>
+                  I work broadly at the intersection of networks, systems, and
+                  security.
+                </h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
-                  {`Hello there! I'm a web designer, and I'm very passionate and
-                  dedicated to my work. With 20 years experience as a
-                  professional web developer, I have acquired the skills and
-                  knowledge necessary to make your project a success. I enjoy
-                  every step of the design process, from discussion and
-                  collaboration.`}
+                  {`Hello there! I am the Tan Family Professor of Electrical and Computer Engineering in the ECE Department at CMU with a courtesy appointment in the Computer Science Department. I am also affiliated with Cylab and co-direct the Future of Enterprise Security initiative @Cylab. I work broadly at the intersection of networks, systems, and security. You can also find me on Twitter, LinkedIn, or Google Scholar.`}
                 </p>
               </div>
               <div
