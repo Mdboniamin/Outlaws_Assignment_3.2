@@ -19,7 +19,7 @@ const Header = ({ logo }) => {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">project</a>
               </li>
               <li>
                 <a href="#service">Service</a>

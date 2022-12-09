@@ -100,4 +100,334 @@ span.current {
   height: 600px;
   width: 100%;
 }
+body {
+  background: #e0e5ec;
+}
+/* All Common Css Start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  ul,ol{
+  list-style-type: none;
+  }
+  a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+  
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+  
+  }
 
+  
+  #project_part{
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+.project_text  h1 {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.project_text p {
+	font-family: "Roboto",sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	padding-bottom: 50px;
+}
+.boxitem1{
+  display: flex;
+}
+.boxitem2{
+  display: flex;
+}
+
+
+.box_one {
+	width: 360px;
+	height: 500px;
+	color: #fff;
+	border-radius: 5px;
+	background: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 20px;
+	box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: 1s;
+}
+
+.box_one:hover{
+  transform: scale(1.1);
+}
+
+
+
+.box_one_img img {
+  width: 100%;
+}
+.box_one_text h2 {
+  line-height: 35px;
+  color: black;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding: 0 35px;
+}
+.box_one_text h2:hover{
+  color: #B509AC;
+}
+.box_one_text p {
+  line-height: 35px;
+  color: black;
+  padding: 0 38px 10px;
+}
+.box_one_text a {
+  font-style: oblique;
+  color: black;
+  line-height: 35px;
+  border: 1px dashed #239d5b;
+  border-radius: 2px 20px;
+  margin: 0px 0px 0px 110px;
+  padding: 3px;
+  border-color: palevioletred;
+  background-color: #ab3f17;
+}
+    /* bon one end  */
+
+
+/* .custom-btnn {
+	width: 350px;
+	height: 500px;
+	background:  transparent;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	margin: -135px 0;
+  display: inline-block;
+	box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+}  */
+
+
+
+        /* box two start */
+.custom-bt {
+  width: 350px;
+  height: 415px;
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  margin-right: 20px;
+  transition: 1s;
+}
+
+.custom-bt:hover{
+  transform: scale(1.1);
+}
+
+.box_two_text h2 {
+	line-height: 45px;
+	color: black;
+	padding: 0 61px;
+}
+.box_two_text  h2:hover{
+  color: #B509AC;
+}
+.box_two_text p {
+  line-height: 35px;
+  color: black;
+  padding: 9px 60px;
+}
+.box_two_text a {
+  font-style: oblique;
+  color: black;
+  line-height: 35px;
+  border: 1px dashed #239d5b;
+  border-radius: 2px 20px;
+  margin: 0px 0px 0px 110px;
+  padding: 3px;
+  border-color: palevioletred;
+  background-color: #ab3f17;
+}
+        /* box two end */
+
+
+
+
+          /* box three start  */
+ .box_one_part {
+  width: 350px;
+  height: 575px;
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  margin-right: 20px;
+  transition: 1s;
+}
+.box_one_part:hover{
+  transform: scale(1.1);
+}
+
+.box_three_text h2 {
+  line-height: 41px;
+  color: black;
+  padding: 0 60px;
+  margin-top: 11px;
+}
+.box_three_text h2:hover{
+  color: #B509AC;
+}
+.box_three_text p {
+	line-height: 35px;
+	color: black;
+	padding: 17px 60px;
+}
+.box_three_text a {
+  font-style: oblique;
+  color: black;
+  line-height: 35px;
+  border: 1px dashed #239d5b;
+  border-radius: 2px 20px;
+  margin: 0px 0px 0px 110px;
+  padding: 3px;
+  border-color: palevioletred;
+  background-color: #ab3f17;
+}
+
+ 
+        /* box three end */
+/* box four start  */
+.box_four_text h2{
+  line-height: 41px;
+  color: black;
+  padding: 0 60px;
+  margin-top: 14px;
+}
+.box_four_text h2:hover{
+  color: #B509AC;
+}
+.box_four_text p {
+	line-height: 35px;
+	color: black;
+	padding: 17px 60px;
+}
+.box_four_text a {
+  font-style: oblique;
+  color: black;
+  line-height: 35px;
+  border: 1px dashed #239d5b;
+  border-radius: 2px 20px;
+  margin: 0px 0px 0px 110px;
+  padding: 3px;
+  border-color: palevioletred;
+  background-color: #ab3f17;
+}
+/* box four end */
+
+/* box five start  */
+
+.custom-b {
+  width: 350px;
+  height: 491px;
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  margin: -100px 0;
+  margin-right: 20px;
+  transition: 1s;
+}
+.custom-b:hover{
+  transform: scale(1.1);
+}
+
+.box_five_text h2{
+  line-height: 41px;
+	color: black;
+	padding: 0 60px;
+	margin-top: 35px;
+}
+.box_five_text h2:hover{
+  color: #B509AC;
+}
+.box_five_text p {
+	line-height: 35px;
+	color: black;
+	padding: 17px 60px;
+}
+.box_five_text a {
+  font-style: oblique;
+  color: black;
+  line-height: 35px;
+  border: 1px dashed #239d5b;
+  border-radius: 2px 20px;
+  margin: 0px 0px 0px 110px;
+  padding: 3px;
+  border-color: palevioletred;
+  background-color: #ab3f17;
+}
+/* box five end */
+
+
+
+
+/* box six start */
+.box_six_part{
+  width: 350px;
+  height: 500px;
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: 1s;
+  margin-top: 15px;
+}
+.box_six_part:hover{
+  transform: scale(1.1);
+}
+
+.box_six_text{
+  margin: 0 0;
+}
+.box_six_text h2{
+  line-height: 41px;
+	color: black;
+	padding: 0 67px;
+	margin-top: 35px;
+}
+.box_six_text h2:hover{
+  color: #B509AC;
+}
+.box_six_text p {
+	line-height: 35px;
+	color: black;
+	padding: 17px 67px;
+}
+.box_six_text a {
+  font-style: oblique;
+  color: black;
+  line-height: 35px;
+  border: 1px dashed #239d5b;
+  border-radius: 2px 20px;
+  margin: 0px 0px 0px 110px;
+  padding: 3px;
+  border-color: palevioletred;
+  background-color: #ab3f17;
+}
+/* box six end*/
