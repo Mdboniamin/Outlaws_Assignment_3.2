@@ -48,218 +48,127 @@ const Portfolio = () => {
   return (
     <div className="dizme_tm_section" id="portfolio">
       <DetailsPopup open={popup} close={() => setPopup(false)} />
-      <div className="dizme_tm_portfolio">
-        <div className="container">
-          <div className="dizme_tm_main_title" data-align="center">
-            <span>Portfolio</span>
-            <h3>My Amazing Works</h3>
-            <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
-            </p>
-          </div>
-          <div className="portfolio_filter">
-            <ul>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("*")}`}
-                  onClick={handleFilterKeyChange("*")}
-                >
-                  All
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("youtube")}`}
-                  onClick={handleFilterKeyChange("youtube")}
-                >
-                  Youtube
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("vimeo")}`}
-                  onClick={handleFilterKeyChange("vimeo")}
-                >
-                  Vimeo
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("soundcloud")}`}
-                  onClick={handleFilterKeyChange("soundcloud")}
-                >
-                  Soundcloud
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer ${activeBtn("popup")}`}
-                  onClick={handleFilterKeyChange("popup")}
-                >
-                  Popup
-                </a>
-              </li>
-              <li>
-                <a
-                  className={`c-pointer  ${activeBtn("detail")}`}
-                  onClick={handleFilterKeyChange("detail")}
-                >
-                  Detail
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="dizme_tm_portfolio_titles" />
-          <div className="portfolio_list wow fadeInUp" data-wow-duration="1s">
-            <ul className="gallery_zoom grid">
-              <li className="youtube grid-item">
-                <div className="inner">
-                  <div
-                    className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Mockup Shape"
-                    data-category="Youtube"
-                  >
-                    <a
-                      className="popup-youtube"
-                      href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"
-                    >
-                      <img src="img/thumbs/42-56.jpg" alt="image" />
-                      <div
-                        className="main"
-                        data-img-url="img/portfolio/1.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div className="mobile_title">
-                    <h3>Mockup Shape</h3>
-                    <span>Youtube</span>
-                  </div>
-                </div>
-              </li>
-              <li className="vimeo grid-item">
-                <div className="inner">
-                  <div
-                    className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Ave Bottle"
-                    data-category="Vimeo"
-                  >
-                    <a
-                      className="popup-vimeo"
-                      href="https://player.vimeo.com/video/337293658?autoplay=1"
-                    >
-                      <img src="img/thumbs/42-34.jpg" alt="image" />
-                      <div
-                        className="main"
-                        data-img-url="img/portfolio/2.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div className="mobile_title">
-                    <h3>Ave Bottle</h3>
-                    <span>Vimeo</span>
-                  </div>
-                </div>
-              </li>
-              <li className="soundcloud grid-item">
-                <div className="inner">
-                  <div
-                    className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Magic Art"
-                    data-category="Soundcloud"
-                  >
-                    <a
-                      className="soundcloude_link mfp-iframe audio"
-                      href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    >
-                      <img src="img/thumbs/42-56.jpg" alt="image" />
-                      <div
-                        className="main"
-                        data-img-url="img/portfolio/3.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div className="mobile_title">
-                    <h3>Magic Art</h3>
-                    <span>Soundcloud</span>
-                  </div>
-                </div>
-              </li>
-              <li className="popup grid-item">
-                <div className="inner">
-                  <div
-                    className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Scott Felix"
-                    data-category="Popup"
-                  >
-                    <a className="zoom" href="img/portfolio/5.jpg">
-                      <img src="img/thumbs/42-56.jpg" alt="image" />
-                      <div
-                        className="main"
-                        data-img-url="img/portfolio/5.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div className="mobile_title">
-                    <h3>Blue Lemon</h3>
-                    <span>Popup</span>
-                  </div>
-                </div>
-              </li>
-              <li className="popup grid-item">
-                <div className="inner">
-                  <div
-                    className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Art Stone"
-                    data-category="Popup"
-                  >
-                    <a className="zoom" href="img/portfolio/4.jpg">
-                      <img src="img/thumbs/42-34.jpg" alt="image" />
-                      <div
-                        className="main"
-                        data-img-url="img/portfolio/4.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div className="mobile_title">
-                    <h3>Art Stone</h3>
-                    <span>Popup</span>
-                  </div>
-                </div>
-              </li>
+  
+      <section id="project_part">
+        <div class="container">
+          <div class="project_text">
+                <h1>projects</h1>
+                <p>Current research projects and themes</p>
+            </div>
+            
 
-              <li className="detail grid-item" onClick={() => setPopup(true)}>
-                <div className="inner">
-                  <div
-                    className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Global Evolution"
-                    data-category="Detail"
-                  >
-                    <a className="portfolio_popup" href="#">
-                      <img src="img/thumbs/42-34.jpg" alt="image" />
-                      <div
-                        className="main"
-                        data-img-url="img/portfolio/6.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div className="mobile_title">
-                    <h3>Global Evolution</h3>
-                    <span>Detail</span>
+            <div class="boxitem1">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="box_one">
+                      <div class="box_one_img">
+                        <picture>
+                          <img src="img/portfolio/ddn.png" alt="ddn.png" loading="lazy"/>
+                        </picture>
+                      </div>
+                      <div class="box_one_text">
+                        <h2>data-driven networking and security</h2>
+                        <p >Using AI/ML to solve networking/security problems</p>
+                        <a href="https://users.ece.cmu.edu/~vsekar/projects/datadriven/"> Read more</a>
+                      </div>
+                 </div>
+              </div>
+             </div>
+
+              <div class="row">
+                  <div class="col-lg-4">
+                    <div class="custom-bt ">
+                        <div class="box_one_img">
+                         <picture>
+                            <img src="img/portfolio/bbn.png" alt="bbn.png" loading="lazy"/>
+                          </picture>
+                       </div>
+                        <div class="box_two_text">
+                          <h2 >project dataFuel</h2>
+                          <p >Enabling Data-driven Innovation with Synthetic Data</p>
+                          <a href="https://users.ece.cmu.edu/~vsekar/projects/datafuel/">Read more</a>
+                        </div>
                   </div>
                 </div>
-              </li>
-            </ul>
-          </div>
+             </div>
+
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="box_one_part ">
+                      <div class="box_one_img">
+                        <picture>
+                          <img src="img/portfolio/iot.png" alt="iot.png" loading="lazy"/>
+                        </picture>
+                      </div>
+                      <div class="box_three_text">
+                        <h2 >internet of things Security</h2>
+                        <p >Rethinking Network Security for the Internet of Things</p>
+                        <a href="https://users.ece.cmu.edu/~vsekar/projects/iotsec/">Read more</a>
+                      </div>
+                 </div>
+              </div>
+             </div> 
+  
+         
+           </div>
+
+
+            <div class="boxitem2">
+              <div class="row">
+                <div class="col-lg-4 mt-5">
+                  <div class="box_one ">
+                      <div class="box_one_img">
+                        <picture>
+                          <img src="img/portfolio/sdn.png" alt="sdn.png" loading="lazy"/>
+                        </picture>
+                      </div>
+                      <div class="box_four_text">
+                        <h2 >software-defined networking</h2>
+                        <p>Rethinking how networks can be more programmable</p>
+                        <a href="https://users.ece.cmu.edu/~vsekar/projects/sdnsec/">Read more</a>
+                      </div>
+                 </div>
+              </div>
+             </div>
+ 
+              <div class="row">
+                  <div class="col-lg-4">
+                    <div class="custom-b ">
+                        <div class="box_one_img">
+                         <picture>
+                            <img src="img/portfolio/tele.png" alt="tele.png" loading="lazy"/>
+                          </picture>
+                       </div>
+                        <div class="box_five_text">
+                          <h2 class="card-title text-lowercase">Network Telemetry</h2>
+                          <p class="card-text">New capabilities for "general" telemetry</p>
+                          <a href="https://users.ece.cmu.edu/~vsekar/projects/telemetry/">Read more</a>
+                        </div>
+                  </div>
+                </div>
+             </div>
+
+              <div class="row">
+                <div class="col-lg-4 mt-5">
+                  <div class="box_six_part ">
+                      <div class="box_one_img">
+                        <picture>
+                          <img src="img/portfolio/Screenshot_1.png" alt="Screenshot_1.png" loading="lazy"/>
+                        </picture>
+                      </div>
+                      <div class="box_six_text">
+                        <h2 >network verification and testing</h2>
+                        <p >New capabilities for stateful network verification</p>
+                        <a href="https://users.ece.cmu.edu/~vsekar/projects/verification/">Read more</a>
+                      </div>
+                 </div>
+              </div>
+             </div> 
+           </div>
         </div>
-        <div className="brush_1 wow zoomIn" data-wow-duration="1s">
-          <img src="img/brushes/portfolio/1.png" alt="image" />
-        </div>
-        <div className="brush_2 wow fadeInRight" data-wow-duration="1s">
-          <img src="img/brushes/portfolio/2.png" alt="image" />
-        </div>
+      </section>
+ 
       </div>
-    </div>
   );
 };
 export default Portfolio;
