@@ -100,33 +100,9 @@ span.current {
   height: 600px;
   width: 100%;
 }
-body {
-  background: #e0e5ec;
-}
-/* All Common Css Start  */
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-  }
-  ul,ol{
-  list-style-type: none;
-  }
-  a,a:hover{
-    text-decoration: none;
-    display: inline-block;
-  
-  }
-  h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-    padding: 0;
-    line-height: 0.8;
-  
-  }
 
   
-  #project_part{
+  .project_part{
     padding-top: 100px;
     padding-bottom: 50px;
   }
