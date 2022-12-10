@@ -32,7 +32,7 @@ const Partners = ({ dark }) => {
           </div>
         </div>
         <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
-          <img src="img/brushes/partners/1.png" alt="image" />
+          <img src="img/brushes/partners/1.jpg" alt="image" />
         </div>
       </div>
     </div>
