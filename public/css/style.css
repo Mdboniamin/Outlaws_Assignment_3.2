@@ -1993,54 +1993,26 @@ h6 {
   position: relative;
 }
 .dizme_tm_partners .partners_inner {
-  width: 100%;
-  float: left;
-  clear: both;
-  overflow: hidden;
-  border-radius: 10px;
-  border: 2px solid #eee;
+ padding: 50px;
+ border: 1px lightgray solid;
 }
-.dizme_tm_partners ul {
-  margin: -2px -10px -2px -2px;
-  list-style-type: none;
-  padding-top: 2px;
-  float: left;
-  padding-left: 2px;
-  min-width: calc(100% + 12px);
+.dizme_tm_partners div {
+  margin: 25px auto;
 }
-.dizme_tm_partners ul li {
-  margin: 0px;
-  float: left;
-  width: 25%;
-  border: 2px solid #eee;
-  text-align: center;
-  height: 180px;
-  line-height: 180px;
-  position: relative;
-  margin-top: -2px;
-  margin-left: -2px;
-  overflow: hidden;
-}
-.dizme_tm_partners ul li img {
-  max-width: 88%;
-  max-height: 100px;
-}
-.dizme_tm_partners ul li .list_inner {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  opacity: 0.5;
 
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+.dizme_tm_partners div h2 {
+  color: red;
 }
-.dizme_tm_partners ul li .list_inner:hover {
-  opacity: 1;
+
+.dizme_tm_partners .awards-top{
+  width: 100%;
+  text-align: center;
 }
+
+.dizme_tm_partners .awards-top h4{
+  color: red;
+}
+
 .dizme_tm_partners .brush_1 {
   position: absolute;
   top: -170px;
