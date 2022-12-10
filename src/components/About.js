@@ -11,19 +11,19 @@ const About = ({ dark }) => {
                 <div className="numbers year">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={18} />
+                      <Counter end={20} />
                     </h3>
                     <span className="name">
                       Years of
                       <br />
-                      Success
+                      Experience
                     </span>
                   </div>
                 </div>
                 <div className="numbers project">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={9} />K
+                      <Counter end={37} />+
                     </h3>
                     <span className="name">
                       Total

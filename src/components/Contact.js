@@ -106,7 +106,7 @@ const Contact = () => {
                       defaultValue={""}
                     />
                   </div>
-                  <div className="dizme_tm_button">
+                  <div className="dizme_tm_button" data-align="center">
                     <a id="send_message" href="#">
                       <span>Submit Now</span>
                     </a>
