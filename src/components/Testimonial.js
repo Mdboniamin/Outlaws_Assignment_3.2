@@ -27,11 +27,14 @@ const Testimonial = () => {
     <div className="dizme_tm_section">
       <div className="dizme_tm_testimonials">
         <div className="dizme_tm_main_title" data-align="center">
-          <span>Testimonials</span>
-          <h3>What My Clients Say</h3>
+          <span>Teaching</span>
+          <h3>Network Security</h3>
           <p>
-            Most common methods for designing websites that work well on desktop
-            is responsive and adaptive design
+          Network Security protects network and data from breaches, 
+          intrusions and other threats.
+          This is a vast and overarching term that describes hardware and software solutions as well as
+          processes or rules and configurations relating to network use, 
+          accessibility, and overall threat protection. 
           </p>
         </div>
         <div className="list_wrapper">
