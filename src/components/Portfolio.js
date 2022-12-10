@@ -111,60 +111,6 @@ const Portfolio = () => {
   
          
            </div>
-
-
-            <div class="boxitem2">
-              <div class="row">
-                <div class="col-lg-4 mt-5">
-                  <div class="box_one ">
-                      <div class="box_one_img">
-                        <picture>
-                          <img src="img/portfolio/sdn.png" alt="sdn.png" loading="lazy"/>
-                        </picture>
-                      </div>
-                      <div class="box_four_text">
-                        <h2 >software-defined networking</h2>
-                        <p>Rethinking how networks can be more programmable</p>
-                        <a href="https://users.ece.cmu.edu/~vsekar/projects/sdnsec/">Read more</a>
-                      </div>
-                 </div>
-              </div>
-             </div>
- 
-              <div class="row">
-                  <div class="col-lg-4">
-                    <div class="custom-b ">
-                        <div class="box_one_img">
-                         <picture>
-                            <img src="img/portfolio/tele.png" alt="tele.png" loading="lazy"/>
-                          </picture>
-                       </div>
-                        <div class="box_five_text">
-                          <h2 class="card-title text-lowercase">Network Telemetry</h2>
-                          <p class="card-text">New capabilities for "general" telemetry</p>
-                          <a href="https://users.ece.cmu.edu/~vsekar/projects/telemetry/">Read more</a>
-                        </div>
-                  </div>
-                </div>
-             </div>
-
-              <div class="row">
-                <div class="col-lg-4 mt-5">
-                  <div class="box_six_part ">
-                      <div class="box_one_img">
-                        <picture>
-                          <img src="img/portfolio/Screenshot_1.png" alt="Screenshot_1.png" loading="lazy"/>
-                        </picture>
-                      </div>
-                      <div class="box_six_text">
-                        <h2 >network verification and testing</h2>
-                        <p >New capabilities for stateful network verification</p>
-                        <a href="https://users.ece.cmu.edu/~vsekar/projects/verification/">Read more</a>
-                      </div>
-                 </div>
-              </div>
-             </div> 
-           </div>
         </div>
       </section>
  
