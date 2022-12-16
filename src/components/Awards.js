@@ -16,7 +16,6 @@ const Partners = ({ dark }) => {
                 Some awards I received over the years!
               </h3>
             </div>
-            
           </div>
         </div>
         <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">

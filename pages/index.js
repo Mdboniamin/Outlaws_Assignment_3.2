@@ -42,9 +42,9 @@ const Index = () => {
       {/* TESTIMONIALS */}
       <Testimonial />
       {/* /TESTIMONIALS */}
-      {/* Awards */}
+      {/* AWARDS */}
       <Awards />
-      {/* /Awards */}
+      {/* /AWARDS */}
       {/* NEWS */}
       <News />
       <Newsletter />
