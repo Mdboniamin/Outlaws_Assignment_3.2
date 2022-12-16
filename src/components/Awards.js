@@ -16,15 +16,7 @@ const Partners = ({ dark }) => {
                 Some awards I received over the years!
               </h3>
             </div>
-            {data &&
-              data.map((award, i) => (
-                <div>
-                  <h2>{award.award + ": "}</h2>
-                  {award.awards.map((award) => (
-                    <p>{award}</p>
-                  ))}
-                </div>
-              ))}
+            
           </div>
         </div>
         <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
